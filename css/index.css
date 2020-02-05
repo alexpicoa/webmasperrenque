@@ -1,0 +1,13 @@
+.stack-icons {
+  position: relative;
+}
+
+.stack-icons .icon {
+  width: 60px;
+  height: 60px;
+  background-repeat: no-repeat !important;
+}
+
+.stack-icons .row {
+  margin-bottom: 10px;
+}
