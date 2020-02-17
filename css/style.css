@@ -438,7 +438,7 @@ button:focus {
 }
 
 .banner-content {
-  text-align: left;
+  text-align: center;
 }
 @media (max-width: 1680px) {
   .banner-content {
