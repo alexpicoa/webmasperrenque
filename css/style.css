@@ -2839,6 +2839,8 @@ h6 {
   background: #f1f1f1;
   flex: 1;
   margin: 10px;
+  display: flex;
+  flex-direction: column;
 }
 
 .pricing-header {
@@ -2959,9 +2961,9 @@ h6 {
   position: relative;
   width: 1000px;
   display: flex;
+  margin: auto;
   align-items: center;
   justify-content: space-between;
-  margin-left: 50px;
   padding-bottom: 100px;
 }
 .service-container .card {
@@ -3060,6 +3062,9 @@ h6 {
   }
   .service-container .card {
     width: 500px;
+  }
+  .service-container .card:first-child {
+    margin-bottom: 100px;
   }
 }
 @media (max-width: 768px) {
