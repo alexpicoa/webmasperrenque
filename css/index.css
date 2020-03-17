@@ -1,3 +1,7 @@
+.banner-area {
+  min-height: 100vh;
+}
+
 .stack-icons {
   position: relative;
 }
@@ -10,4 +14,31 @@
 
 .stack-icons .row {
   margin-bottom: 10px;
+}
+
+.mas-perrenque-logo {
+  transform-origin: left center;
+  position: relative;
+  animation: logo-out;
+  animation-duration: 1s;
+}
+
+.mas-perrenque-logo .rotate-logo {
+  transition: 0.5s transform;
+}
+
+.mas-perrenque-logo .rotate-logo:hover {
+  transform: rotate(25deg);
+}
+
+.mas-perrenque-logo .scale-logo {
+  transition: 0.5s transform 0.5s;
+}
+
+.mas-perrenque-logo:hover {
+  animation: logo-in;
+  animation-delay: 0.5s;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  transition: 1s all;
 }
